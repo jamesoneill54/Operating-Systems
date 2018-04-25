@@ -1,0 +1,15 @@
+Folks,
+
+Hoping you get this, I tried sending it last thursday, then again on Tuesday.  Of course, deadline has been suitably adjusted.
+
+Notes:
+
+1. You are quite at liberty to ignore the python skeleton I have provided.  It is crude, and is designed only to give you an idea.  On the other hand, you can base your projects on it, or a variant, if you wish.
+2. there are lots of C and Java implementations.  As stated in the spec, I and the lab tutors will assist with Python, but if you go with Java you're on your own.  By all means look at other implementations and learn from them.
+3. this needs to be thought through.  You need to bear in mind that the key is synchronising on shared resources.  For example, customers need to add themselves to shared queues, because the barber needs to know they're there.
+
+You've plenty of time on this, but don't under-estimate it.  By all means ask lab tutors for advice, however they will not give you too much help with this.  They can give you pointers, but they have been requested not to actually do the project for you.
+
+Kind regards,
+
+Dónal

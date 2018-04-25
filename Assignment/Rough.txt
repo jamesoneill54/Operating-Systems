@@ -1,0 +1,21 @@
+Customers jobs:
+- wake up sleeping barbers
+- wait in queue
+- be called to get their hair cut
+
+Barbers jobs:
+- Sleep in the chair
+- cut the customers hair
+- call customers from the waiting room
+
+Queue:
+- Shared resource
+- Maybe placed in top process(main method)?
+
+
+
+General:
+- Barbers wait until called at the very start
+- First customer calls the barber, then gets hair cut(should the cut method be in customer
+threads or barber threads??)
+- Customer thread wakes barber, barber thread calls cut method in customer thread. Once customer thread has finished executing, customer thread dies, barber checks for other customer threads in the 'queue', then either repeats previous process or goes to sleep. 
